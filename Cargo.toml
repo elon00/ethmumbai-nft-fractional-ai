@@ -1,0 +1,9 @@
+[package]
+name = "ethmumbai-nft-fractional-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "High-velocity ERC-721/1155 fractional liquidity AMM"
+license = "MIT"
+
+[dependencies]

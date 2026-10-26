@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "ethmumbai-nft-fractional-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Arbitrum / Ethereum L2",
+        "PROJECT_TICKER": "EMFRAC"
+      },
+      "tools": [
+        {
+          "name": "verify_emfrac_invariants",
+          "description": "Verifies deterministic invariants for ETHMumbai NFT Fractional AI on Arbitrum / Ethereum L2."
+        },
+        {
+          "name": "execute_emfrac_action",
+          "description": "Executes authenticated DeFi state transition."
+        }
+      ]
+    }
+  }
+}
